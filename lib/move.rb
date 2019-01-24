@@ -14,5 +14,5 @@ def input_to_index()
 end
 
 def move()
-  
+  move.strip.chomp.to_i - 1
 end
