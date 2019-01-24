@@ -13,8 +13,8 @@ def input_to_index()
   
 end
 
-def move(board, index, player = X)
+def move(board, index, mark = X)
   player_move.strip.chomp.to_i - 1
-  board[index] = player
+  board[index] = mark
   return board
 end
