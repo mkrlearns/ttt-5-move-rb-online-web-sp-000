@@ -15,4 +15,5 @@ end
 
 def move(board, player_move, player = X)
   player_move.strip.chomp.to_i - 1
+  return board
 end
