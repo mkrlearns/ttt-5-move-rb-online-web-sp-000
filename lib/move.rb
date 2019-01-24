@@ -9,12 +9,11 @@ end
 # code your input_to_index and move method here!
 # board_index = [" "," "," "," "," "," "," "," "," "]
 
-def input_to_index()
-  
+def input_to_index(user_input)
+  user_input.strip.chomp.to_i - 1
 end
 
 def move(board, index, mark = X)
-  player_move.strip.chomp.to_i - 1
   board[index] = mark
   return board
 end
