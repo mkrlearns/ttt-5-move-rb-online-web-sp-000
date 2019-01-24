@@ -13,6 +13,6 @@ def input_to_index()
   
 end
 
-def move(board, index, player_move)
+def move(board, player_move, player)
   player_move.strip.chomp.to_i - 1
 end
