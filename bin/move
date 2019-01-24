@@ -8,5 +8,5 @@ board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 player_input = input_to_index(gets)
-updated_board = move(board, player_input, mark = "X")
+move(board, player_input, mark = "X")
 display_board(board)
