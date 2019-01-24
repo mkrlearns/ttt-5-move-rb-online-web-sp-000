@@ -7,12 +7,12 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-index = [" "," "," "," "," "," "," "," "," "]
+board_index = [" "," "," "," "," "," "," "," "," "]
 
 def input_to_index()
   
 end
 
-def move(player_move)
+def move(board, index, player_move)
   player_move.strip.chomp.to_i - 1
 end
